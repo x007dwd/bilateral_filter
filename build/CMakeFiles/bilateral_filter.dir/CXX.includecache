@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bobin/Documents/code/cv/denoise/bilateral/fastBilateral.hpp
+opencv2/opencv.hpp
+-
+
+/home/bobin/Documents/code/cv/denoise/bilateral/main.cpp
+iostream
+-
+fastBilateral.hpp
+/home/bobin/Documents/code/cv/denoise/bilateral/fastBilateral.hpp
+
